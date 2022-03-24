@@ -36,6 +36,7 @@ ol span a
    letter-spacing: 2px;
    text-transform: uppercase;
    color: #000000;
+   font-size: 25px;
 
 }
    .img 
@@ -43,12 +44,14 @@ ol span a
       position: relative;
       top: 0;
       left: 0;
-      width: 100px;
-      height: 100px;
+      width: 125px;
+      height: 125px;
    }
    ul li 
    {
       list-style: none;
+   text-align: center;
+
    }
   
 
@@ -60,7 +63,7 @@ h3
 {
    display: inline-block;
    text-align: center;
-   font-size: 50px;
+   font-size: 60px;
    font-family: sans-serif;
    color: #fff;
    background-color: black;
@@ -74,11 +77,12 @@ ul li a
 {
    text-decoration: none;
    color: white;
-   background-color: greenyellow;
+   background-color: black;
    font-size: 40px;
-   font-family: serif;
+   font-family: cursive;
 }
 ul li a:hover
 {
     background-color: blue;
+    
 }
