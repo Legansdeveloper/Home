@@ -3,27 +3,30 @@
 {
    margin: 0;
    padding: 0;
-    box-sizi1
+   .
    position: absolute;
     justify-content: center;
     align-items: center;
     background-color: #fff;
 
+
+
  }
  ol
  {
    position: relative;
-   display: flex;
+  display: flex;
    align-items: center;
-   gap: 200px;
+   gap: 100px;
    background: #fff;
-   
+
    
 
   
 }
 ol span {
-   list-style: none;
+   
+   border-radius: 100%;
    
 
 
@@ -37,27 +40,30 @@ ol span a
    text-transform: uppercase;
    color: #000000;
    font-size: 25px;
+   transition: 0.5s;
 
 }
    .img 
    {
       position: relative;
       top: 0;
-      left: 0;
+      left: 45%;
       width: 125px;
       height: 125px;
    }
    ul li 
    {
-      list-style: none;
+      
    text-align: center;
-
+   list-style: none;
    }
   
 
 ol span a:hover
 {
-   background-color: salmon;
+   background-color: grey;
+  
+  border-radius: 40px;
 }
 h3
 {
@@ -65,24 +71,51 @@ h3
    text-align: center;
    font-size: 60px;
    font-family: sans-serif;
-   color: #fff;
-   background-color: black;
+  
+   color: #000000;
+   border-radius: 40px;
+   list-style: none;
+   
    
 }
-h4
+ul li P
 {
-   font-family: sans-serif;   
-}
-ul li a 
-{
-   text-decoration: none;
-   color: white;
-   background-color: black;
+   display: inline-block;
+   color: black;
+   font-weight: 50px;
    font-size: 40px;
    font-family: cursive;
 }
-ul li a:hover
+
+ol span p
+{  
+   display: inline-block ;
+   align-items: center;
+   color: black;
+   
+   font-size: 40px;
+   font-family: cursive;
+   align-items: center;
+  
+}
+h5
 {
-    background-color: blue;
-    
+   text-align: center;
+   font-size: 20px;
+   background-color: black;
+   color: #fff;
+   font-family: cursive;
+   transition: 0.5s;
+}
+h5:hover
+{
+  font-size: 22px;
+  
+}
+
+h4
+{
+   text-align: center;
+   font-size: 35px;
+   font-family:  cursive;
 }
